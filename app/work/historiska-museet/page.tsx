@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 };
 
 // Paste your YouTube embed ID here (the part after watch?v=)
-const YOUTUBE_ID = "cy83QGfxXjg";
+const YOUTUBE_ID: string = "cy83QGfxXjg";
 
 export default function HistoriskaMus() {
   return (
