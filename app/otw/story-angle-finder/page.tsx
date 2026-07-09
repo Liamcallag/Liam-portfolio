@@ -791,10 +791,7 @@ export default function StoryAngleFinderPage() {
         {/* Standalone header */}
         <header className="otw-header">
           <Link href="/" className="otw-wordmark">Liam Callaghan</Link>
-          <div style={{ display: "flex", alignItems: "center", gap: "1.5rem" }}>
-            <Link href="/" className="otw-portfolio-link">← Portfolio</Link>
-            <span className="otw-header-tag">Portfolio Demo</span>
-          </div>
+          <Link href="/" className="otw-portfolio-link">← Portfolio</Link>
         </header>
 
         <div className="otw-inner">
