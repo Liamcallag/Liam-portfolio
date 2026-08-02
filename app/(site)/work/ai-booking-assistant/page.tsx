@@ -13,7 +13,7 @@ export default function AIBookingAssistant() {
       title="AI Booking Assistant"
       subtitle="For Local Service Businesses"
       intro="Small local service businesses lose real customers every time a call goes unanswered. Most have no way to capture that interest before it goes to a competitor."
-      heroImage={{ src: "/work/ai-booking-assistant/vapi-dashboard.png", alt: "Vapi dashboard showing voice assistant configuration — Deepgram Nova-3 transcriber, GPT-4o Mini, ElevenLabs multilingual voice, latency and cost breakdown" }}
+      heroImage={{ src: "/work/ai-booking-assistant/sms-conversation.png", alt: "Real SMS conversation on a Swedish number — full booking flow from first message to confirmation" }}
       sections={[
         {
           heading: "What I Built, and Why It Changed",
@@ -21,6 +21,7 @@ export default function AIBookingAssistant() {
             "I started with voice. When a business missed a call, an AI agent would answer, understand what the caller wanted, and collect booking details — service type, date, time — before handing off to staff for confirmation.",
             "The voice assistant was tuned after extensive testing: Deepgram Nova-3 for Swedish transcription, GPT-4o Mini for reasoning, ElevenLabs' multilingual model chosen specifically for pronunciation accuracy over raw speed. I tested it deliberately — ambiguous requests, mid-conversation corrections, background noise, unusual phrasing.",
           ],
+          image: { src: "/work/ai-booking-assistant/vapi-dashboard.png", alt: "Vapi dashboard — Nova-3 transcriber, GPT-4o Mini, ElevenLabs Multilingual v2, latency and cost breakdown" },
         },
         {
           heading: "Where Voice Failed",
