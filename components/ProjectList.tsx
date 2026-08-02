@@ -40,6 +40,15 @@ const projects = [
     thumb: "/work/backlink-agent/agent-dashboard.png",
     rotation: 0,
   },
+  {
+    num: "05",
+    title: "AI Booking Assistant",
+    subtitle: "For Local Service Businesses",
+    slug: "ai-booking-assistant",
+    year: "2026",
+    thumb: "/work/ai-booking-assistant/sms-conversation.png",
+    rotation: 0,
+  },
 ];
 
 export default function ProjectList() {
