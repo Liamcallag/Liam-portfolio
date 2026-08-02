@@ -28,7 +28,6 @@ export default function AIBookingAssistant() {
             "The AI itself worked reasonably well. The surrounding infrastructure didn't. Carrier limitations made Swedish numbers with reliable voice capability difficult to source. Keypad input was inconsistent. End-to-end latency sat around 1,670ms — enough to make conversations feel unnatural.",
             "Rather than keep tuning a system fighting its own foundation, I rebuilt the same core value as an SMS flow.",
           ],
-          image: { src: "/work/ai-booking-assistant/vapi-dashboard.png", alt: "Vapi dashboard — Nova-3 transcriber, GPT-4o Mini, ElevenLabs Multilingual v2, ~1,670ms latency" },
         },
         {
           heading: "The SMS Version",
