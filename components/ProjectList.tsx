@@ -6,20 +6,20 @@ import Link from "next/link";
 const projects = [
   {
     num: "01",
+    title: "AI Booking Assistant",
+    subtitle: "For Local Service Businesses",
+    slug: "ai-booking-assistant",
+    year: "2026",
+    thumb: "/work/ai-booking-assistant/sms-conversation.png",
+    rotation: 0,
+  },
+  {
+    num: "02",
     title: "Body Burden",
     subtitle: "Microplastics Exposure Calculator",
     slug: "body-burden",
     year: "2026",
     thumb: "/work/body-burden/bb-hero.png",
-    rotation: 0,
-  },
-  {
-    num: "02",
-    title: "Historiska museet",
-    subtitle: "VR & Interactive Exhibition Design",
-    slug: "historiska-museet",
-    year: "2023",
-    thumb: "/work/historiska-museet/hemse-start.png",
     rotation: 0,
   },
   {
@@ -42,11 +42,11 @@ const projects = [
   },
   {
     num: "05",
-    title: "AI Booking Assistant",
-    subtitle: "For Local Service Businesses",
-    slug: "ai-booking-assistant",
-    year: "2026",
-    thumb: "/work/ai-booking-assistant/sms-conversation.png",
+    title: "Historiska museet",
+    subtitle: "VR & Interactive Exhibition Design",
+    slug: "historiska-museet",
+    year: "2023",
+    thumb: "/work/historiska-museet/hemse-start.png",
     rotation: 0,
   },
 ];
