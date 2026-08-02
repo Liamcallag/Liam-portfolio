@@ -35,9 +35,7 @@ export default function AIBookingAssistant() {
             "The conversation logic — understanding what a customer wants and extracting the right details — carried over almost directly. What changed was the delivery mechanism.",
             "A missed call triggers an SMS to the customer. Claude reads the reply, asks natural follow-up questions, and extracts service type, date, and time. Once complete, it confirms and hands off a structured booking request to staff. Built on a real Swedish number via 46elks, tested end-to-end.",
           ],
-          mobileImages: [
-            { src: "/work/ai-booking-assistant/sms-conversation.png", alt: "Real SMS conversation on a Swedish number — full booking flow from first message to confirmation" },
-          ],
+          sideImage: { src: "/work/ai-booking-assistant/sms-conversation.png", alt: "Real SMS conversation on a Swedish number — full booking flow from first message to confirmation" },
         },
         {
           heading: "What This Actually Demonstrates",

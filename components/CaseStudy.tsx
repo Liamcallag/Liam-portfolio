@@ -9,6 +9,7 @@ interface Section {
   image?: { src: string; alt: string };
   image2?: { src: string; alt: string; text?: string };
   mobileImages?: { src: string; alt: string; caption?: string }[];
+  sideImage?: { src: string; alt: string };
 }
 
 interface CaseStudyProps {
@@ -136,13 +137,23 @@ export default function CaseStudy({
             <div className="grid grid-cols-1 md:grid-cols-4 border-b border-[#1e1e1e]">
               {onRight ? (
                 <>
-                  {/* Left: "Case Study" on first section only */}
-                  <div className="hidden md:flex md:col-span-2 border-r border-[#1e1e1e] px-10 py-28 items-start">
-                    {i === 0 && (
-                      <p className="text-6xl lg:text-7xl font-bold text-white leading-none">
-                        Case Study
-                      </p>
-                    )}
+                  {/* Left: sideImage, "Case Study" on first section, or empty */}
+                  <div className="hidden md:flex md:col-span-2 border-r border-[#1e1e1e] items-center justify-center overflow-hidden">
+                    {section.sideImage ? (
+                      <Image
+                        src={section.sideImage.src}
+                        alt={section.sideImage.alt}
+                        width={400}
+                        height={720}
+                        className="h-full w-auto max-w-[260px] object-contain py-10"
+                      />
+                    ) : i === 0 ? (
+                      <div className="px-10 py-28 w-full flex items-start">
+                        <p className="text-6xl lg:text-7xl font-bold text-white leading-none">
+                          Case Study
+                        </p>
+                      </div>
+                    ) : null}
                   </div>
                   {/* Right: content */}
                   <div className="md:col-span-2 px-6 py-14 md:px-10 md:py-28 flex flex-col justify-center gap-5">
