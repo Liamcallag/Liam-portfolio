@@ -33,7 +33,7 @@ const projects = [
   },
   {
     num: "04",
-    title: "Backlink Agent",
+    title: "AI Outreach Agent",
     subtitle: "AI Outreach Pipeline",
     slug: "backlink-agent",
     year: "2026",

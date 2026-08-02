@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import CaseStudy from "@/components/CaseStudy";
 
 export const metadata: Metadata = {
-  title: "Backlink Agent — Liam Callaghan",
+  title: "AI Outreach Agent — Liam Callaghan",
   description: "AI Outreach Pipeline for Body Burden Lab — case study.",
 };
 
@@ -10,7 +10,7 @@ export default function BacklinkAgent() {
   return (
     <CaseStudy
       category="Product Design & AI Development"
-      title="Backlink Agent"
+      title="AI Outreach Agent"
       subtitle="AI Outreach Pipeline"
       intro="Backlinks are the single biggest factor in search ranking. Body Burden Lab was struggling to reach the first page of search results, and manual outreach — finding relevant sites, locating contact details, writing personalised emails — is slow and doesn't scale."
       heroImage={{ src: "/work/backlink-agent/agent.png", alt: "Backlink Agent dashboard" }}
