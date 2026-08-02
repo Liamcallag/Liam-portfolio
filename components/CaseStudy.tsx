@@ -17,7 +17,7 @@ interface CaseStudyProps {
   subtitle: string;
   url?: string;
   intro?: string;
-  heroImage: { src: string; alt: string };
+  heroImage?: { src: string; alt: string };
   heroCrop?: boolean;
   secondaryImage?: { src: string; alt: string };
   sections: Section[];
@@ -80,18 +80,20 @@ export default function CaseStudy({
       </div>
 
       {/* ── HERO IMAGE ─────────────────────────────────────────────────────── */}
-      <div className={`bg-[#0a0a0a] overflow-hidden ${heroCrop ? "max-h-[88vh]" : ""}`}>
-        <ScrollScale>
-          <Image
-            src={heroImage.src}
-            alt={heroImage.alt}
-            width={1600}
-            height={900}
-            className={`w-full h-auto ${heroCrop ? "-mt-[6%]" : ""}`}
-            priority
-          />
-        </ScrollScale>
-      </div>
+      {heroImage && (
+        <div className={`bg-[#0a0a0a] overflow-hidden ${heroCrop ? "max-h-[88vh]" : ""}`}>
+          <ScrollScale>
+            <Image
+              src={heroImage.src}
+              alt={heroImage.alt}
+              width={1600}
+              height={900}
+              className={`w-full h-auto ${heroCrop ? "-mt-[6%]" : ""}`}
+              priority
+            />
+          </ScrollScale>
+        </div>
+      )}
 
       {/* ── INTRO STATEMENT ────────────────────────────────────────────────── */}
       {intro && (
@@ -220,24 +222,36 @@ export default function CaseStudy({
               </div>
             )}
 
-            {/* Mobile screenshots — 3-column grid */}
+            {/* Mobile screenshots */}
             {section.mobileImages && section.mobileImages.length > 0 && (
-              <div className="grid grid-cols-3 border-b border-[#1e1e1e]">
-                {section.mobileImages.map((img, j) => (
-                  <div
-                    key={j}
-                    className={`overflow-hidden ${j < section.mobileImages!.length - 1 ? "border-r border-[#1e1e1e]" : ""}`}
-                  >
-                    <Image
-                      src={img.src}
-                      alt={img.alt}
-                      width={400}
-                      height={720}
-                      className="w-full h-auto object-contain"
-                    />
-                  </div>
-                ))}
-              </div>
+              section.mobileImages.length === 1 ? (
+                <div className="bg-[#0a0a0a] border-b border-[#1e1e1e] py-16 flex justify-center">
+                  <Image
+                    src={section.mobileImages[0].src}
+                    alt={section.mobileImages[0].alt}
+                    width={400}
+                    height={720}
+                    className="h-auto w-full max-w-[320px] rounded-2xl shadow-xl"
+                  />
+                </div>
+              ) : (
+                <div className="grid grid-cols-3 border-b border-[#1e1e1e]">
+                  {section.mobileImages.map((img, j) => (
+                    <div
+                      key={j}
+                      className={`overflow-hidden ${j < section.mobileImages!.length - 1 ? "border-r border-[#1e1e1e]" : ""}`}
+                    >
+                      <Image
+                        src={img.src}
+                        alt={img.alt}
+                        width={400}
+                        height={720}
+                        className="w-full h-auto object-contain"
+                      />
+                    </div>
+                  ))}
+                </div>
+              )
             )}
 
           </div>

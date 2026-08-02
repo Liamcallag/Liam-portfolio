@@ -13,7 +13,6 @@ export default function AIBookingAssistant() {
       title="AI Booking Assistant"
       subtitle="For Local Service Businesses"
       intro="Small local service businesses lose real customers every time a call goes unanswered. Most have no way to capture that interest before it goes to a competitor."
-      heroImage={{ src: "/work/ai-booking-assistant/sms-conversation.png", alt: "Real SMS conversation on a Swedish number — full booking flow from first message to confirmation" }}
       sections={[
         {
           heading: "What I Built, and Why It Changed",
