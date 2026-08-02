@@ -20,7 +20,6 @@ export default function AIBookingAssistant() {
             "I started with voice. When a business missed a call, an AI agent would answer, understand what the caller wanted, and collect booking details — service type, date, time — before handing off to staff for confirmation.",
             "The voice assistant was tuned after extensive testing: Deepgram Nova-3 for Swedish transcription, GPT-4o Mini for reasoning, ElevenLabs' multilingual model chosen specifically for pronunciation accuracy over raw speed. I tested it deliberately — ambiguous requests, mid-conversation corrections, background noise, unusual phrasing.",
           ],
-          image: { src: "/work/ai-booking-assistant/vapi-dashboard.png", alt: "Vapi dashboard — Nova-3 transcriber, GPT-4o Mini, ElevenLabs Multilingual v2, latency and cost breakdown" },
         },
         {
           heading: "Where Voice Failed",
@@ -28,7 +27,6 @@ export default function AIBookingAssistant() {
             "The AI itself worked reasonably well. The surrounding infrastructure didn't. Carrier limitations made Swedish numbers with reliable voice capability difficult to source. Keypad input was inconsistent. End-to-end latency sat around 1,670ms — enough to make conversations feel unnatural.",
             "Rather than keep tuning a system fighting its own foundation, I rebuilt the same core value as an SMS flow.",
           ],
-          image: { src: "/work/ai-booking-assistant/vapi-full.png", alt: "Vapi dashboard — Nova-3 transcriber, GPT-4o Mini, ElevenLabs Multilingual v2, system prompt, ~1,670ms latency" },
         },
         {
           heading: "The SMS Version",
