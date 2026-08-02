@@ -20,6 +20,7 @@ export default function AIBookingAssistant() {
             "I started with voice. When a business missed a call, an AI agent would answer, understand what the caller wanted, and collect booking details — service type, date, time — before handing off to staff for confirmation.",
             "The voice assistant was tuned after extensive testing: Deepgram Nova-3 for Swedish transcription, GPT-4o Mini for reasoning, ElevenLabs' multilingual model chosen specifically for pronunciation accuracy over raw speed. I tested it deliberately — ambiguous requests, mid-conversation corrections, background noise, unusual phrasing.",
           ],
+          image: { src: "/work/ai-booking-assistant/vapi-dashboard.png", alt: "Vapi dashboard — Nova-3 transcriber, GPT-4o Mini, ElevenLabs Multilingual v2, latency and cost breakdown" },
         },
         {
           heading: "Where Voice Failed",
