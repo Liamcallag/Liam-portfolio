@@ -41,7 +41,7 @@ export default function BodyBurden() {
         },
         {
           heading: "Outcome",
-          body: "Launched April 2026. Referenced by youthclimateleader.org as a student resource, validating the scientific credibility of the approach.",
+          body: "Launched April 2026. Cited by youthclimateleader.org as a student resource, and requested as a source by a PhD student for her thesis on microplastics exposure.",
           mobileImages: [
             { src: "/work/body-burden/bb-phone-result-1.png", alt: "Mobile — score" },
             { src: "/work/body-burden/bb-phone-result-2.png", alt: "Mobile — category detail" },
