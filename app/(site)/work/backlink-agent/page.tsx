@@ -13,7 +13,7 @@ export default function BacklinkAgent() {
       title="AI Outreach Agent"
       subtitle="AI Outreach Pipeline"
       intro="Backlinks are the single biggest factor in search ranking. Body Burden Lab was struggling to reach the first page of search results, and manual outreach — finding relevant sites, locating contact details, writing personalised emails — is slow and doesn't scale."
-      heroImage={{ src: "/work/backlink-agent/agent.png", alt: "Backlink Agent dashboard" }}
+      heroImage={{ src: "/work/backlink-agent/agent-dashboard-v2.png", alt: "Backlink Agent dashboard" }}
       sections={[
         {
           heading: "The Solution",
