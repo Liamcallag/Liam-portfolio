@@ -112,7 +112,7 @@ export default function HistoriskaMus() {
         <div className="md:col-span-2 md:border-r border-[#1e1e1e] px-6 py-10 md:px-10 md:py-20 flex items-end" />
         <div className="md:col-span-2 px-6 pb-10 md:px-10 md:pb-20 md:pt-20 flex flex-col justify-end gap-4">
           <ScrollFade>
-            <p className="text-lg text-[#888]">● ● ● ●&nbsp;&nbsp;The Solutions</p>
+            <p className="text-lg text-[#888]">● ● ● ●&nbsp;&nbsp;The Solutions — Interactive Screen</p>
           </ScrollFade>
           <ScrollFade delay={100}>
             <p className="text-white leading-snug text-xl md:text-2xl">
@@ -151,7 +151,7 @@ export default function HistoriskaMus() {
         <div className="md:col-span-2 md:border-r border-[#1e1e1e] px-6 py-10 md:px-10 md:py-20 flex items-end" />
         <div className="md:col-span-2 px-6 pb-10 md:px-10 md:pb-20 md:pt-20 flex flex-col justify-end gap-4">
           <ScrollFade>
-            <p className="text-lg text-[#888]">● ● ● ●&nbsp;&nbsp;The Solutions</p>
+            <p className="text-lg text-[#888]">● ● ● ●&nbsp;&nbsp;The Solutions — VR</p>
           </ScrollFade>
           <ScrollFade delay={100}>
             <p className="text-white leading-snug text-xl md:text-2xl">
