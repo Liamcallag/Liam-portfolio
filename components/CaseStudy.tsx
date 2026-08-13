@@ -10,6 +10,7 @@ interface Section {
   image2?: { src: string; alt: string; text?: string };
   mobileImages?: { src: string; alt: string; caption?: string }[];
   sideImage?: { src: string; alt: string };
+  pullQuote?: { text: string; attribution?: string };
 }
 
 interface CaseStudyProps {
@@ -192,8 +193,24 @@ export default function CaseStudy({
                       ))}
                     </div>
                   </div>
-                  {/* Right: empty */}
-                  <div className="hidden md:block md:col-span-2" />
+                  {/* Right: pull-quote or empty */}
+                  <div className="hidden md:flex md:col-span-2 items-center justify-center px-10 py-28 relative overflow-hidden">
+                    {section.pullQuote && (
+                      <>
+                        <span className="absolute top-8 left-10 text-[10rem] leading-none text-white opacity-5 font-serif select-none">&ldquo;</span>
+                        <div className="relative z-10 flex flex-col gap-4 max-w-sm">
+                          <p className="text-2xl lg:text-3xl italic text-white/70 leading-snug font-medium">
+                            {section.pullQuote.text}
+                          </p>
+                          {section.pullQuote.attribution && (
+                            <p className="text-xs uppercase tracking-widest text-[#888]">
+                              {section.pullQuote.attribution}
+                            </p>
+                          )}
+                        </div>
+                      </>
+                    )}
+                  </div>
                 </>
               )}
             </div>

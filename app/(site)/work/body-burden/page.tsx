@@ -26,11 +26,14 @@ export default function BodyBurden() {
         {
           heading: "The Pivot",
           body: [
-            "I reached out to a microplastics researcher to validate the methodology. Her response was direct:",
-            "\"It is a cute tool but it carries the illusion of a scientific accuracy which it doesn't (and cannot) offer.\"",
+            "I reached out to a microplastics researcher to validate the methodology. Her response was direct.",
             "She pushed back with two questions: what problem does the tool solve, and what problem does it create? The issue was real — studies measuring exposure from different sources use fundamentally different methodologies, so adding them into one score would look scientific without being scientific.",
             "I restructured the calculator around independent exposure categories — Kitchen & Cooking, Food & Diet, Drinking Water, Air & Environment — each scored using methodology-appropriate studies, instead of one misleading total.",
           ],
+          pullQuote: {
+            text: "It is a cute tool but it carries the illusion of a scientific accuracy which it doesn't (and cannot) offer.",
+            attribution: "— microplastics researcher",
+          },
         },
         {
           heading: "The Detail That Shows the Thinking",
