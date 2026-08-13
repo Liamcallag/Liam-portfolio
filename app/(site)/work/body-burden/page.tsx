@@ -20,15 +20,17 @@ export default function BodyBurden() {
       sections={[
         {
           heading: "The Design Challenge",
-          body: [
-            "The core challenge wasn't visual — it was scientific. My original concept was a single cumulative exposure score: input your habits, get a total number. Clean, simple, satisfying.",
-            "The problem emerged when I contacted a microplastics researcher directly to validate my methodology. She explained that studies measuring exposure from different sources use fundamentally different research methodologies. Adding their figures together would produce a number that looked precise but was scientifically meaningless.",
-          ],
+          body: "The core challenge wasn't visual — it was scientific. My original concept was a single cumulative exposure score: input your habits, get a total number. Clean, simple, satisfying. It also turned out to be wrong.",
           image: { src: "/work/body-burden/bb-calculator.png", alt: "Calculator question screen" },
         },
         {
           heading: "The Pivot",
-          body: "Rather than abandon the project, I restructured the calculator around exposure categories — Kitchen & Cooking, Food & Diet, Drinking Water, Air & Environment — each scored independently using methodology-appropriate studies.",
+          body: [
+            "I reached out to a microplastics researcher to validate the methodology. Her response was direct:",
+            "\"It is a cute tool but it carries the illusion of a scientific accuracy which it doesn't (and cannot) offer.\"",
+            "She pushed back with two questions: what problem does the tool solve, and what problem does it create? The issue was real — studies measuring exposure from different sources use fundamentally different methodologies, so adding them into one score would look scientific without being scientific.",
+            "I restructured the calculator around independent exposure categories — Kitchen & Cooking, Food & Diet, Drinking Water, Air & Environment — each scored using methodology-appropriate studies, instead of one misleading total.",
+          ],
         },
         {
           heading: "The Detail That Shows the Thinking",
