@@ -41,7 +41,7 @@ export default function BacklinkAgent() {
         },
         {
           heading: "What This Shows",
-          body: "Most designers make something and move on. This project is about finding a problem in a shipped product and building a tool to fix it — combining design, product thinking, and AI implementation. The same agent architecture could be adapted for any website doing content-based outreach, not just Body Burden.",
+          body: "This project started from a real problem in a product I'd already shipped — not a hypothetical brief. The agent handles the parts that don't scale manually: finding relevant sites, understanding why each is a credible fit, and drafting a genuinely specific pitch instead of a template. The architecture isn't tied to Body Burden specifically — it could run outreach for any content-based site with the same target-and-context logic.",
         },
       ]}
     />
