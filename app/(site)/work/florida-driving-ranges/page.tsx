@@ -42,7 +42,7 @@ export default function FloridaDrivingRanges() {
         },
         {
           heading: "Outcome",
-          body: "130+ clicks per month and growing through organic search.",
+          body: "A company valued at $80M reached out independently about advertising placement — unprompted, based on organic search visibility alone. Traffic has ranged from 78 to 130+ clicks/month through organic search since launch.",
           mobileImages: [
             { src: "/work/florida-driving-ranges/fdr-phone-homepage.png", alt: "Mobile homepage" },
             { src: "/work/florida-driving-ranges/fdr-phone-map.png", alt: "Mobile map" },
