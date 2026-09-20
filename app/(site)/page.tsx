@@ -15,7 +15,7 @@ export default function Home() {
       </div>
 
       <p className="text-[#777] text-sm mb-14">
-        Currently training under a world-leading martial arts master in Japan.{" "}
+        Read about my training under a world-leading martial arts master in Japan.{" "}
         <Link href="/about" className="text-[#5BB5A8] hover:underline">
           → About
         </Link>
