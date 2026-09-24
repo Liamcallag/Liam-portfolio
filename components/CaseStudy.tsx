@@ -50,7 +50,7 @@ export default function CaseStudy({
           >
             ← Work
           </Link>
-          <h1 className="text-[14vw] md:text-[10vw] font-bold leading-none text-black tracking-tight">
+          <h1 className="text-[8vw] md:text-[10vw] font-bold leading-none text-black tracking-tight">
             {title}
           </h1>
         </div>
