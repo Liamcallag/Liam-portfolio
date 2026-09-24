@@ -40,7 +40,7 @@ export default function CaseStudy({
     <div>
 
       {/* ── HEADER ─────────────────────────────────────────────────────────── */}
-      <div className="bg-white grid grid-cols-1 md:grid-cols-4 border-b border-[#e5e5e5] min-h-[70vh]">
+      <div className="bg-white grid grid-cols-1 md:grid-cols-4 border-b border-[#e5e5e5] min-h-[35vh] md:min-h-[70vh]">
 
         {/* Col 1-3: back link pinned top, title centered */}
         <div className="md:col-span-3 md:border-r border-b md:border-b-0 border-[#e5e5e5] p-6 md:p-10 flex flex-col justify-center relative">
@@ -50,7 +50,7 @@ export default function CaseStudy({
           >
             ← Work
           </Link>
-          <h1 className="text-[4vw] md:text-[10vw] font-bold leading-none text-black tracking-tight">
+          <h1 className="text-[8vw] md:text-[10vw] font-bold leading-none text-black tracking-tight">
             {title}
           </h1>
         </div>
