@@ -43,10 +43,10 @@ export default function CaseStudy({
       <div className="bg-white grid grid-cols-1 md:grid-cols-4 border-b border-[#e5e5e5] md:min-h-[70vh]">
 
         {/* Col 1-3: back link pinned top, title centered */}
-        <div className="md:col-span-3 md:border-r border-b md:border-b-0 border-[#e5e5e5] p-6 md:p-10 flex flex-col justify-center relative">
+        <div className="md:col-span-3 md:border-r border-b md:border-b-0 border-[#e5e5e5] p-6 md:p-10 flex flex-col justify-start md:justify-center gap-3 relative">
           <Link
             href="/"
-            className="absolute top-6 left-6 md:top-10 md:left-10 text-[10px] text-[#999] uppercase tracking-widest hover:text-[#5BB5A8] transition-colors"
+            className="md:absolute md:top-10 md:left-10 text-[10px] text-[#999] uppercase tracking-widest hover:text-[#5BB5A8] transition-colors"
           >
             ← Work
           </Link>
@@ -56,23 +56,23 @@ export default function CaseStudy({
         </div>
 
         {/* Col 4: metadata centered */}
-        <div className="p-6 md:p-10 flex flex-col justify-center gap-10">
+        <div className="p-6 md:p-10 flex flex-col justify-center gap-6 md:gap-10">
           <div>
-            <p className="text-sm text-[#999] uppercase tracking-widest mb-3">Project Field</p>
-            <p className="text-xl text-black font-semibold leading-tight">{category}</p>
+            <p className="text-[10px] text-[#999] uppercase tracking-widest mb-2">Project Field</p>
+            <p className="text-base md:text-xl text-black font-semibold leading-tight">{category}</p>
           </div>
           <div>
-            <p className="text-sm text-[#999] uppercase tracking-widest mb-3">Project</p>
-            <p className="text-xl text-black font-semibold leading-tight">{subtitle}</p>
+            <p className="text-[10px] text-[#999] uppercase tracking-widest mb-2">Project</p>
+            <p className="text-base md:text-xl text-black font-semibold leading-tight">{subtitle}</p>
           </div>
           {url && (
             <div>
-              <p className="text-sm text-[#999] uppercase tracking-widest mb-3">URL</p>
+              <p className="text-[10px] text-[#999] uppercase tracking-widest mb-2">URL</p>
               <Link
                 href={`https://${url}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-xl text-[#5BB5A8] hover:underline"
+                className="text-base md:text-xl text-[#5BB5A8] hover:underline"
               >
                 {url}
               </Link>
