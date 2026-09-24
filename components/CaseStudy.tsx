@@ -102,7 +102,7 @@ export default function CaseStudy({
         <div className="grid grid-cols-1 md:grid-cols-4 border-t border-b border-[#1e1e1e]">
           <div className="md:col-span-3 md:border-r border-[#1e1e1e] px-6 py-14 md:px-10 md:py-20">
             <ScrollFade>
-              <p className="text-2xl md:text-3xl lg:text-4xl text-white font-semibold leading-snug">
+              <p className="text-lg md:text-3xl lg:text-4xl text-white font-semibold leading-snug">
                 {intro}
               </p>
             </ScrollFade>
@@ -166,7 +166,7 @@ export default function CaseStudy({
                     <div className="space-y-3">
                       {body.map((para, j) => (
                         <ScrollFade key={j} delay={j * 100}>
-                          <p className="text-white leading-snug text-xl md:text-2xl">
+                          <p className="text-white leading-snug text-base md:text-2xl">
                             {para}
                           </p>
                         </ScrollFade>
@@ -186,7 +186,7 @@ export default function CaseStudy({
                     <div className="space-y-3">
                       {body.map((para, j) => (
                         <ScrollFade key={j} delay={j * 100}>
-                          <p className="text-white leading-snug text-xl md:text-2xl">
+                          <p className="text-white leading-snug text-base md:text-2xl">
                             {para}
                           </p>
                         </ScrollFade>
