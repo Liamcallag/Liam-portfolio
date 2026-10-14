@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 360" width="560" height="360">
+  <rect width="560" height="360" fill="#FAF9F7"/>
+
+  <!-- Header bar -->
+  <rect width="560" height="48" fill="#ffffff" stroke="#e5e0da" stroke-width="1"/>
+  <text x="20" y="30" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1A1A1A">Idea Inbox</text>
+  <text x="200" y="30" font-family="system-ui, sans-serif" font-size="11" fill="#666">1. Report</text>
+  <text x="280" y="30" font-family="system-ui, sans-serif" font-size="11" fill="#1F5F5B" font-weight="600">2. Decide</text>
+  <text x="360" y="30" font-family="system-ui, sans-serif" font-size="11" fill="#666">3. Results</text>
+
+  <!-- Chart area -->
+  <rect x="20" y="64" width="340" height="240" rx="4" fill="#ffffff" stroke="#e5e0da" stroke-width="1"/>
+
+  <!-- Y axis label -->
+  <text x="34" y="190" font-family="system-ui, sans-serif" font-size="9" fill="#999" transform="rotate(-90 34 190)">Hours saved / month</text>
+
+  <!-- X axis labels -->
+  <text x="110" y="296" font-family="system-ui, sans-serif" font-size="9" fill="#999" text-anchor="middle">Low effort</text>
+  <text x="215" y="296" font-family="system-ui, sans-serif" font-size="9" fill="#999" text-anchor="middle">Medium</text>
+  <text x="320" y="296" font-family="system-ui, sans-serif" font-size="9" fill="#999" text-anchor="middle">High effort</text>
+
+  <!-- Quick wins shaded zone -->
+  <rect x="58" y="74" width="112" height="110" fill="#1F5F5B" opacity="0.08" rx="2"/>
+  <text x="64" y="88" font-family="system-ui, sans-serif" font-size="8" fill="#1F5F5B">Quick wins</text>
+
+  <!-- Scatter dots -->
+  <circle cx="100" cy="200" r="6" fill="#1F5F5B"/>
+  <circle cx="118" cy="110" r="6" fill="#1F5F5B"/>
+  <circle cx="95" cy="155" r="6" fill="#1F5F5B"/>
+  <circle cx="210" cy="170" r="6" fill="#666"/>
+  <circle cx="228" cy="220" r="6" fill="#666"/>
+  <circle cx="318" cy="195" r="6" fill="#999"/>
+  <circle cx="305" cy="140" r="6" fill="#999"/>
+
+  <!-- Right panel -->
+  <rect x="374" y="64" width="166" height="240" rx="4" fill="#ffffff" stroke="#e5e0da" stroke-width="1"/>
+  <text x="386" y="88" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#1A1A1A">Live solutions</text>
+
+  <!-- Result bars -->
+  <rect x="386" y="100" width="130" height="8" rx="4" fill="#e5e0da"/>
+  <rect x="386" y="100" width="104" height="8" rx="4" fill="#1F5F5B"/>
+  <text x="386" y="122" font-family="system-ui, sans-serif" font-size="9" fill="#444">Meeting summaries</text>
+
+  <rect x="386" y="132" width="130" height="8" rx="4" fill="#e5e0da"/>
+  <rect x="386" y="132" width="80" height="8" rx="4" fill="#1F5F5B"/>
+  <text x="386" y="154" font-family="system-ui, sans-serif" font-size="9" fill="#444">Support ticket tagging</text>
+
+  <!-- Accent highlight block -->
+  <rect x="386" y="164" width="140" height="52" rx="4" fill="#1F5F5B" opacity="0.12"/>
+  <text x="396" y="185" font-family="system-ui, sans-serif" font-size="20" font-weight="700" fill="#1F5F5B">86%</text>
+  <text x="396" y="200" font-family="system-ui, sans-serif" font-size="9" fill="#1F5F5B">less time on meeting admin</text>
+</svg>
