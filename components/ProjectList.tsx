@@ -49,15 +49,6 @@ const projects = [
     thumb: "/work/historiska-museet/hemse-start.png",
     rotation: 0,
   },
-  {
-    num: "06",
-    title: "Idea Inbox",
-    subtitle: "AI Opportunity Tracker",
-    slug: "idea-inbox",
-    year: "2026",
-    thumb: "/work/idea-inbox/thumb.svg",
-    rotation: 0,
-  },
 ];
 
 export default function ProjectList() {
